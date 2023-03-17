@@ -1,18 +1,17 @@
+import Footer from "./template-2/Footer";
+import Header from "./template-2/Header";
+import Navbar from "./template-2/Navbar";
+import PageContent from "./template-2/PageContent";
 
-import Footer from "./template-1/Footer";
-import Navbar from "./template-1/Navbar";
-import PageContent from "./template-1/PageContent";
-import Slide from "./template-1/Slide";
 
 
 
 function App() {
   return (<>
 <Navbar></Navbar>
-<Slide></Slide>
+<Header></Header>
 <PageContent></PageContent>
 <Footer></Footer>
-
 
   </>);
 }

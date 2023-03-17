@@ -1,9 +1,9 @@
 import React from 'react'
 
 function Footer() {
-  return (<>
-  <>
-  footer class="w3-center w3-light-grey w3-padding-32"&gt;
+  return (
+    <>
+    <footer className="w3-center w3-black w3-padding-16">
   <p>
     Powered by{" "}
     <a
@@ -16,10 +16,10 @@ function Footer() {
       w3.css
     </a>
   </p>
-</>
+</footer>
 
-
-  </>)
+    </>
+  )
 }
 
 export default Footer

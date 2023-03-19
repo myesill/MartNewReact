@@ -1,4 +1,5 @@
-import ArraystateSample from "./stateSample/ArraystateSample";
+
+import InputStateSample from "./stateSample/InputStateSample";
 
 
 
@@ -6,7 +7,7 @@ import ArraystateSample from "./stateSample/ArraystateSample";
 function App() {
   return (<>
 
-<ArraystateSample></ArraystateSample>
+<InputStateSample></InputStateSample>
 
   </>);
 }

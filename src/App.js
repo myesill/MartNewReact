@@ -1,13 +1,13 @@
 
-import InputStateSample from "./stateSample/InputStateSample";
+import CategoryTable from "./stateSample/CategoryTable";
+
 
 
 
 
 function App() {
   return (<>
-
-<InputStateSample></InputStateSample>
+<CategoryTable></CategoryTable>
 
   </>);
 }

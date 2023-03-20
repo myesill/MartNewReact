@@ -31,7 +31,10 @@ function InputStateSample() {
     </ul>
     <input type='text'value={name} onChange={(e)=>setName(e.target.value)} ></input>
     <button onClick={()=>newMetalBand()}>Add New Metal Band</button>
-    <button onClick={()=>removeAllBands()}>Remove All Bands new</button>
+
+    <button onClick={()=>removeAllBands()}>Remove All Bands</button>
+
+ 
     </>)
 }
 

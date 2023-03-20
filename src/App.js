@@ -1,17 +1,13 @@
-import Footer from "./template-2/Footer";
-import Header from "./template-2/Header";
-import Navbar from "./template-2/Navbar";
-import PageContent from "./template-2/PageContent";
+
+import InputStateSample from "./stateSample/InputStateSample";
 
 
 
 
 function App() {
   return (<>
-<Navbar></Navbar>
-<Header></Header>
-<PageContent></PageContent>
-<Footer></Footer>
+
+<InputStateSample></InputStateSample>
 
   </>);
 }

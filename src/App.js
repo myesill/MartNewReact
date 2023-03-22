@@ -1,13 +1,16 @@
-
-import CategoryTable from "./stateSample/CategoryTable";
+import UserList from "./fetchSample/UserList";
 
 
 
 
 
 function App() {
+
+
   return (<>
-<CategoryTable></CategoryTable>
+
+<UserList></UserList>
+
 
   </>);
 }

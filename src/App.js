@@ -1,4 +1,6 @@
-import UserList from "./fetchSample/UserList";
+
+import AddCategory from "./fetchSample/AddCategory";
+
 
 
 
@@ -9,7 +11,7 @@ function App() {
 
   return (<>
 
-<UserList></UserList>
+<AddCategory></AddCategory>
 
 
   </>);

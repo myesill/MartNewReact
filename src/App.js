@@ -1,5 +1,6 @@
 
-import AddCategory from "./fetchSample/AddCategory";
+
+import AddCategoryWithAxious from "./fetchSample/AddCategoryWithAxious";
 
 
 
@@ -11,7 +12,7 @@ function App() {
 
   return (<>
 
-<AddCategory></AddCategory>
+<AddCategoryWithAxious></AddCategoryWithAxious>
 
 
   </>);

@@ -7,6 +7,7 @@ import ProductList from "./routerSample/ProductList";
 import ProductDetail from "./routerSample/ProductDetail";
 import DataDisplay from "./materialSample/DataDisplay";
 import ProductDataGrid from "./materialSample/ProductDataGrid";
+import AutocompleteSample from "./materialSample/AutocompleteSample";
 
 
 
@@ -24,7 +25,7 @@ function App() {
   <li><Link to='/urunler'>Products</Link></li>
   <li><Link to='/datadisplay'>Material Data Display </Link></li>
   <li><Link to='/productdatagrid'>Material Data Grid </Link></li>
- 
+  <li><Link to='/autocompleteSample'>Auto Complete Sample</Link></li>
 
 </ul>
 
@@ -36,6 +37,8 @@ function App() {
  <Route path='/urunler/:id' element={<ProductDetail/>}></Route>
  <Route path='/datadisplay' element={<DataDisplay/>}></Route>
  <Route path='/productdatagrid' element={<ProductDataGrid/>}></Route>
+ <Route path='/autocompleteSample' element={<AutocompleteSample/>}></Route>
+
  <Route path='*' element={<NoMatch/>}></Route>
 </Routes>
 

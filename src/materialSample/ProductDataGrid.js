@@ -33,7 +33,8 @@ function ProductDataGrid() {
     ]
    
     useEffect(() => {
-        axios.get('https://northwind.vercel.app/api/products')
+      axios.get("https://northwind.vercel.app/api/categories#") 
+     
         .then(res =>setProducts(res.data))
     }, [])
     
